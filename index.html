@@ -12,7 +12,9 @@
 <body>
     <div id="app">
         <h1 class="text-center text-uppercase">e-mail list</h1>
-        <p>{{eMail}}</p>
+        <ul class="ms-5" v-for="eMail in eMails">
+            <li >{{eMail}}</li>
+        </ul>
     </div>
 
     <!-- Bootstrap JavaScript Libraries -->
